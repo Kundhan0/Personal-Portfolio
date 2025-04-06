@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="color: rgb(0, 247, 255)">
+    <header>
+      <nav class="header" role="navigation" aria-label="Main navigation">
+        <h2>Kundhan's Portfolio</h2>
+        <ul class="navheader">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="contact-form" class="contact">
+      <h2>Contact Form</h2>
+      <form name="submit-to-google-sheet">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name" /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" /><br />
+        <label for="message">Message:</label>
+        <textarea id="message" name="Message"></textarea><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="msg"></div>
+    </section>
+
+    <section id="social-media">
+      <div id="socials">
+        <div>Socials</div>
+        <ul>
+          <li>
+            <a href="https://github.com/Kundhan0" target="_blank"
+              ><img src="images/github.png" alt="github"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/kundhan-a-41370b231/?trk=public-profile-join-page"
+              target="_blank"
+              ><img src="images/LinkedIn_logo.png" alt="LinkedIn"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="form-submit.js"></script>
+  </body>
+</html>
